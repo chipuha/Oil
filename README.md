@@ -10,12 +10,18 @@ Rough outline/stage gates:
 Phase 1: Bubble map
 Goal create a production bubble map for the Wolfcamp.
 Data needed
+
 ~ Production data (3, 12, 24 month cumulative production)
+
 	~ Oil
+
 	~ Water
+
 	~ Gas
 ~ Well design data
+
 	~ Lateral length
+	
 	~ Lat long
 
 Phase 2: Top picker/Target ID
