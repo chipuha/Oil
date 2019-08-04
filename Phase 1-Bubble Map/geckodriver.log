@@ -16,21 +16,32 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
 
-nsion.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1564803685676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1564803685677	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1564803689453	Marionette	INFO	Listening on port 54507
-1564803689819	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-[Parent 23676, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 19224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/co[Child 13724, Chrome_ChildThread] WARNImNG: pmipe error: 109: fioln/ipc_channel_wine z:/tas.cc, lk_1563383129/builid/nes rc/ipc/chromium/341src/
-chrome/commo[n/ipc_channel_win.cc, line 341
-[Child 13724[Parent 23676, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 16904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 16904,1564803827154	Marionette	INFO	Stopped listening on port 54507
-[GP
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+[Parent 10588, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Child 14404, Chrome_ChildThread] WARNING: pipe[Parent 10588, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A0,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+[Child 20384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10588, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: resource:///actors/AboutReaderChild.jsm, line 80: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E002E,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+geChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 ng on port 54648
 1564803797300	Marionette	WARN	TLS certificate errors will be ignored for this session
@@ -341,21 +352,35 @@ emit@resource://devtools/shared/event-emitter.js:186:24
 emit@resource://devtools/shared/event-emitter.js:267:18
 getMutations/<@resource://devtools/shared/fronts/inspector.js:402:12
 
-05	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1564807962806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1564807962806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1564807962806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1564807966611	Marionette	INFO	Listening on port 59195
-1564807966873	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-JavaScript error: http://webapps2.rrc.texas.gov/EWA/productionQueryAction.do, line 154: TypeError: document.forms.generalProductionQueryActionForm.submit is not a function
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
-JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 21316, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15633831[Parent 21316, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 21316, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 21316, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8752, Chrome_ChildThread] WARNING
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A0,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+: pipe error: 109: file z:/t
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+ask_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: resource:///actors/AboutReaderChild.jsm, line 80: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+rn statement
 console.error: BroadcastService: 
   receivedBroadcastMessage: handler for
   remote-settings/monitor_changes
@@ -451,4 +476,264 @@ console.error: BroadcastService:
   Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chr[oCme/common/hilipcd 19_channe100, Cl_win.chromce_ChildTh, line 341
+read] [Child 3552, Chrome_ChildThread] WARNING: WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8980, Chrome1564810545440	Marionette	INFO	Stopped listening on port 61152
+[GPU 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1564810560048	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chipu\\AppData\\Local\\Temp\\rust_mozprofile.hmU40uZNOgeh"
+1564810560511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564810560511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564810560511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564810560511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564810562300	Marionette	INFO	Listening on port 61929
+1564810562795	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript error: http://webapps2.rrc.texas.gov/EWA/productionQueryAction.do, line 154: TypeError: document.forms.generalProductionQueryActionForm.submit is not a function
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Child 24920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_StopIMEStateManagement) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A0,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+[Child 24920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: resource:///actors/AboutReaderChild.jsm, line 80: NS_ERROR_UNEXPECTED: 
+[Child 13748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E002E,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/t
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1564840304091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chipu\\AppData\\Local\\Temp\\rust_mozprofile.UYFrh88vgU5J"
+1564840304726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564840304726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564840304727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564840304727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564840306513	Marionette	INFO	Listening on port 58675
+1564840306833	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript error: http://webapps2.rrc.texas.gov/EWA/productionQueryAction.do, line 154: TypeError: document.forms.generalProductionQueryActionForm.submit is not a function
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 15336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 15336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[C[Child 6592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Ch[Parent 15336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chil1564846271713	Marionette	INFO	Stopped listening on port 58675
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1564846291994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chipu\\AppData\\Local\\Temp\\rust_mozprofile.VDPSz3SH0RHN"
+1564846292866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564846292867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564846292869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564846292870	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564846295956	Marionette	INFO	Listening on port 59291
+1564846296350	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript error: http://webapps2.rrc.texas.gov/EWA/productionQueryAction.do, line 154: TypeError: document.forms.generalProductionQueryActionForm.submit is not a function
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+[Parent 20216, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 20216, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15[Child 1763383129/build/src/ipc/chr608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_156338omium/s3129/build/src/ipc/chromircu/m/src/chrchrome/common/ome/common/ipc_chaipc_channel_win.cc, line 341nnel_win.cc, 
+line 341
+[Child 2[0Child392, [Parent 20216, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 31921564846472313	Marionette	INFO	Stopped listening on port 59291
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1564846635514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chipu\\AppData\\Local\\Temp\\rust_mozprofile.hdqkfbTt9tem"
+1564846636468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564846636468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564846636468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564846636469	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564846640462	Marionette	INFO	Listening on port 59390
+1564846640973	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript error: http://webapps2.rrc.texas.gov/EWA/productionQueryAction.do, line 154: TypeError: document.forms.generalProductionQueryActionForm.submit is not a function
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 12392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_w[Child 11592, Chrome_Chilin.cc, lindThread] WARe 341
+NING: pipe error:[Child 12524, Chrome 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1[Parent 12392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16372, 1564873814105	Marionette	INFO	Stopped listening on port 59390
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1564873937330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chipu\\AppData\\Local\\Temp\\rust_mozprofile.rJvxCRhGEFyA"
+1564873938165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564873938165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564873938166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564873938166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564873941489	Marionette	INFO	Listening on port 61150
+1564873941684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript error: http://webapps2.rrc.texas.gov/EWA/productionQueryAction.do, line 154: TypeError: document.forms.generalProductionQueryActionForm.submit is not a function
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 16260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 16260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ip[c/chChild 16romium/src/chr600, Chrome_Chilome/common/ipc_channel_win.cc, line 341dThre
+ad] WARN[Child 1312ING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chil[Child 16712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 167121564877482023	Marionette	INFO	Stopped listening on port 61150
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1564877489850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chipu\\AppData\\Local\\Temp\\rust_mozprofile.ehqA2al3SwcT"
+1564877490243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564877490243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564877490243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564877490243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564877491866	Marionette	INFO	Listening on port 53096
+1564877491973	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript error: http://webapps2.rrc.texas.gov/EWA/productionQueryAction.do, line 154: TypeError: document.forms.generalProductionQueryActionForm.submit is not a function
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 6732, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6732, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17532, Chr[Childome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1[Parent 6732, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9021564877607739	Marionette	INFO	Stopped listening on port 53096
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript error: http://webapps2.rrc.texas.gov/EWA/productionQueryAction.do, line 154: TypeError: document.forms.generalProductionQueryActionForm.submit is not a function
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+JavaScript warning: http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/js/dojo/dijit/a11yclick.js, line 2: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 6484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src[Child 16520, Chrome_ChildThrea/d] WARNING: pipe error: 109: file z:/task_1563383129/build/sipc/chromium/src/chrome/corc/ipc/chromium/src/chrome/common/ipcmmon/ipc_cha_channel_win.cc,nnel_win.cc, line 341 
+line 341
+[Child 1[Chi[Parent 6484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1564887919629	Marionette	INFO	Stopped listening on port 53160
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
