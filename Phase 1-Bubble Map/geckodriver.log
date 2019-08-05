@@ -761,3 +761,15 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
 
+[Parent 20760, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 20760, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 20760, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc,[Child 12904, Chrome_ChildThrea line 3d] WARNING: 41
+pipe error: 109: file z[:/task_1563383129/build/src/ipc/chromium/src/[Child 18528, Chromchrome/common/ipc_channel_win.cce_ChildThread] WARNING: pipe error: 109: file, l z:/task_1563383129/build/src/ipc/chromiumine 341
+/src[Chil/chrome/common/ipc_channel_win.cc, line 341
+[Child 185[Parent 20760, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1564967254950	Marionette	INFO	Stopped listening on port 49858
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
